@@ -2751,3 +2751,450 @@ Binding(CTRL+SHIFT+T,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:05:48.344
+!MESSAGE 11:05:48.216 [Simple-Language-Server main thread] INFO  o.s.i.v.c.l.u.SimpleWorkspaceService - file created event: [file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/src/application/Program.java]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:05:48.617
+!MESSAGE 11:05:48.616 [pool-3-thread-17] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:05:49.114
+!MESSAGE 11:05:49.110 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:05:49.220
+!MESSAGE 11:05:49.219 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:05:55.099
+!MESSAGE 11:05:49.223 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:05:55.297
+!MESSAGE 11:05:55.296 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:05:55.534
+!MESSAGE 11:05:55.298 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 2ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:05:55.830
+!MESSAGE 11:05:55.802 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:05:55.836
+!MESSAGE 11:05:55.835 [Reconciler-1] INFO  o.s.i.v.b.j.r.JdtReconciler - reconciling (JDT): file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/src/application/Program.java done in 33ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:05:56.626
+!MESSAGE 11:05:56.616 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 4
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:05:57.125
+!MESSAGE 11:05:57.123 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 5
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:05:57.131
+!MESSAGE 11:05:57.127 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:05:57.151
+!MESSAGE 11:05:57.137 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:05:57.248
+!MESSAGE 11:05:57.246 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 6
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:05:57.752
+!MESSAGE 11:05:57.742 [pool-3-thread-17] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:05:57.771
+!MESSAGE 11:05:57.769 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:05:57.809
+!MESSAGE 11:05:57.808 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:00.464
+!MESSAGE 11:05:58.312 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:00.641
+!MESSAGE 11:06:00.578 [pool-3-thread-16] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:00.801
+!MESSAGE 11:06:00.799 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:01.317
+!MESSAGE 11:06:01.304 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:01.776
+!MESSAGE 11:06:01.679 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 1ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:01.832
+!MESSAGE 11:06:01.830 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:02.335
+!MESSAGE 11:06:02.334 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:02.351
+!MESSAGE 11:06:02.350 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:11.275
+!MESSAGE 11:06:11.256 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:11.277
+!MESSAGE 11:06:11.273 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:11.291
+!MESSAGE 11:06:11.275 [pool-14-thread-1] ERROR o.s.i.v.b.j.u.CompilationUnitCache - 
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:11.293
+!MESSAGE java.util.concurrent.CompletionException: java.util.concurrent.CancellationException
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:11.295
+!MESSAGE 	at java.base/java.util.concurrent.CompletableFuture.wrapInCompletionException(CompletableFuture.java:323)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:11.300
+!MESSAGE 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:376)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:11.301
+!MESSAGE 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:391)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:11.302
+!MESSAGE 	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:729)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:11.303
+!MESSAGE 	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:531)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:11.304
+!MESSAGE 	at java.base/java.util.concurrent.CompletableFuture.cancel(CompletableFuture.java:2554)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:11.305
+!MESSAGE 	at org.springframework.ide.vscode.boot.java.utils.CompilationUnitCache$1.onRemoval(CompilationUnitCache.java:106)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:11.306
+!MESSAGE 	at com.google.common.cache.LocalCache.processPendingNotifications(LocalCache.java:1814)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:11.307
+!MESSAGE 	at com.google.common.cache.LocalCache$Segment.runUnlockedCleanup(LocalCache.java:3467)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:11.308
+!MESSAGE 	at com.google.common.cache.LocalCache$Segment.postWriteCleanup(LocalCache.java:3443)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:11.309
+!MESSAGE 	at com.google.common.cache.LocalCache$Segment.remove(LocalCache.java:3077)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:11.309
+!MESSAGE 	at com.google.common.cache.LocalCache.remove(LocalCache.java:4251)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:11.310
+!MESSAGE 	at com.google.common.cache.LocalCache$LocalManualCache.invalidate(LocalCache.java:4891)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:11.311
+!MESSAGE 	at org.springframework.ide.vscode.boot.java.utils.CompilationUnitCache.invalidateCuForJavaFile(CompilationUnitCache.java:383)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:11.312
+!MESSAGE 	at org.springframework.ide.vscode.boot.java.utils.CompilationUnitCache.lambda$new$0(CompilationUnitCache.java:130)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:11.313
+!MESSAGE 	at org.springframework.ide.vscode.commons.languageserver.util.ListenerList.fire(ListenerList.java:29)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:11.314
+!MESSAGE 	at org.springframework.ide.vscode.commons.languageserver.util.SimpleTextDocumentService.didChange(SimpleTextDocumentService.java:210)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:11.315
+!MESSAGE 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:11.316
+!MESSAGE 	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:11.317
+!MESSAGE 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:11.317
+!MESSAGE 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:11.318
+!MESSAGE 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:11.319
+!MESSAGE 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:11.319
+!MESSAGE 	at org.springframework.ide.vscode.commons.languageserver.util.ParentProcessWatcher.lambda$apply$0(ParentProcessWatcher.java:129)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:11.320
+!MESSAGE 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:11.320
+!MESSAGE 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:11.321
+!MESSAGE 	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:11.321
+!MESSAGE 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:11.322
+!MESSAGE 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:11.322
+!MESSAGE 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:11.323
+!MESSAGE 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:11.323
+!MESSAGE 	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:11.324
+!MESSAGE Caused by: java.util.concurrent.CancellationException: null
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:11.325
+!MESSAGE 	at java.base/java.util.concurrent.CompletableFuture.cancel(CompletableFuture.java:2552)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:11.325
+!MESSAGE 	... 26 common frames omitted
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:11.807
+!MESSAGE 11:06:11.805 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:11.840
+!MESSAGE 11:06:11.836 [Reconciler-1] INFO  o.s.i.v.b.j.r.JdtReconciler - reconciling (JDT): file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/src/application/Program.java done in 31ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:11.841
+!MESSAGE 11:06:11.841 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:13.444
+!MESSAGE 11:06:13.329 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 2ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:13.862
+!MESSAGE 11:06:13.834 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:15.016
+!MESSAGE 11:06:13.865 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-02-01 11:06:15.058
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:430)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2117)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:15.086
+!MESSAGE 11:06:15.043 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:15.549
+!MESSAGE 11:06:15.544 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:16.073
+!MESSAGE 11:06:16.051 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:17.895
+!MESSAGE 11:06:17.892 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:18.352
+!MESSAGE 11:06:18.351 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 20
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:18.860
+!MESSAGE 11:06:18.858 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:18.874
+!MESSAGE 11:06:18.874 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:18.876
+!MESSAGE 11:06:18.875 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:20.302
+!MESSAGE 11:06:20.191 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 21
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:20.715
+!MESSAGE 11:06:20.697 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:22.591
+!MESSAGE 11:06:22.590 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:22.646
+!MESSAGE 11:06:22.626 [pool-3-thread-17] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - hover computation done in 2ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:22.995
+!MESSAGE 11:06:22.992 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:23.499
+!MESSAGE 11:06:23.498 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:23.514
+!MESSAGE 11:06:23.513 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:24.808
+!MESSAGE 11:06:24.807 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:25.312
+!MESSAGE 11:06:25.311 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:25.332
+!MESSAGE 11:06:25.330 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:27.707
+!MESSAGE 11:06:27.704 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:28.210
+!MESSAGE 11:06:28.209 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:28.227
+!MESSAGE 11:06:28.224 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:30.071
+!MESSAGE 11:06:30.070 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 26
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:30.578
+!MESSAGE 11:06:30.576 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:30.594
+!MESSAGE 11:06:30.593 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:31.027
+!MESSAGE 11:06:31.024 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:31.527
+!MESSAGE 11:06:31.527 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:31.532
+!MESSAGE 11:06:31.531 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:32.088
+!MESSAGE 11:06:32.087 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:32.607
+!MESSAGE 11:06:32.593 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:57.248
+!MESSAGE 11:06:57.232 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:57.250
+!MESSAGE 11:06:57.246 [Reconciler-1] INFO  o.s.i.v.b.j.r.JdtReconciler - reconciling (JDT): file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/src/application/Program.java done in 14ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:57.429
+!MESSAGE 11:06:57.427 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:57.934
+!MESSAGE 11:06:57.932 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:57.964
+!MESSAGE 11:06:57.963 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:59.238
+!MESSAGE 11:06:59.237 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:59.241
+!MESSAGE 11:06:59.239 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 33
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:59.243
+!MESSAGE 11:06:59.243 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:59.244
+!MESSAGE 11:06:59.244 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 5ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:59.245
+!MESSAGE 11:06:59.245 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 34
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:59.246
+!MESSAGE 11:06:59.246 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:59.249
+!MESSAGE 11:06:59.248 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 3ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:59.250
+!MESSAGE 11:06:59.248 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 35
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:59.250
+!MESSAGE 11:06:59.249 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:59.251
+!MESSAGE 11:06:59.250 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 2ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:59.252
+!MESSAGE 11:06:59.250 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 36
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:59.252
+!MESSAGE 11:06:59.250 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:59.254
+!MESSAGE 11:06:59.253 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 1ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:59.255
+!MESSAGE 11:06:59.254 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 40
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:59.256
+!MESSAGE 11:06:59.256 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 1ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:59.258
+!MESSAGE 11:06:59.258 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 2ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:59.259
+!MESSAGE 11:06:59.258 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:59.260
+!MESSAGE 11:06:59.259 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 1ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:59.261
+!MESSAGE 11:06:59.259 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 44
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:59.261
+!MESSAGE 11:06:59.260 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:59.262
+!MESSAGE 11:06:59.260 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 1ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:59.276
+!MESSAGE 11:06:59.275 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 45
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:59.278
+!MESSAGE 11:06:59.277 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 1ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:59.280
+!MESSAGE 11:06:59.279 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 1ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:59.281
+!MESSAGE 11:06:59.280 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 50
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:59.282
+!MESSAGE 11:06:59.281 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 51
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:59.283
+!MESSAGE 11:06:59.282 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:59.285
+!MESSAGE 11:06:59.284 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 0ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:59.287
+!MESSAGE 11:06:59.286 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:59.288
+!MESSAGE 11:06:59.287 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 0ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:59.289
+!MESSAGE 11:06:59.289 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 60
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:59.291
+!MESSAGE 11:06:59.290 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 62
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:59.293
+!MESSAGE 11:06:59.292 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:59.294
+!MESSAGE 11:06:59.293 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 1ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:59.801
+!MESSAGE 11:06:59.348 [pool-3-thread-16] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:06:59.842
+!MESSAGE 11:06:59.841 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:07:00.292
+!MESSAGE 11:07:00.280 [pool-3-thread-17] INFO  o.s.i.v.boot.app.SpringSymbolIndex - Update document [didSave event]: file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:07:01.664
+!MESSAGE 11:07:01.146 [Simple-Language-Server main thread] INFO  o.s.i.v.c.l.u.SimpleWorkspaceService - file changed event: [file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/bin/application/Program.class]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:07:07.095
+!MESSAGE 11:07:07.093 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:07:07.622
+!MESSAGE 11:07:07.621 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-01 11:07:07.694
+!MESSAGE 11:07:07.694 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao07_exercicios_matrizes/src/application/Program.java
