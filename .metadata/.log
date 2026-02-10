@@ -9270,3 +9270,1334 @@ Binding(CTRL+SHIFT+T,
 
 !ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:35:41.978
 !MESSAGE 09:35:41.937 [pool-3-thread-19] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:25.202
+!MESSAGE 09:39:42.133 [pool-3-thread-21] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - hover computation done in 3ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:25.706
+!MESSAGE 09:41:25.256 [pool-3-thread-22] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:25.728
+!MESSAGE 09:41:25.728 [pool-5-thread-6] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:33.936
+!MESSAGE 09:41:33.935 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 284
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:34.079
+!MESSAGE 09:41:34.079 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 285
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:34.425
+!MESSAGE 09:41:34.422 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:34.654
+!MESSAGE 09:41:34.654 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 287
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:35.161
+!MESSAGE 09:41:35.160 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:35.178
+!MESSAGE 09:41:35.176 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:35.182
+!MESSAGE p(LocalCache.java:3467)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:35.184
+!MESSAGE 	at com.google.common.cache.LocalCache$Segment.postWriteCleanup(LocalCache.java:3443)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:35.186
+!MESSAGE 	at com.google.common.cache.LocalCache$Segment.remove(LocalCache.java:3077)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:35.188
+!MESSAGE 	at com.google.common.cache.LocalCache.remove(LocalCache.java:4251)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:35.189
+!MESSAGE 	at com.google.common.cache.LocalCache$LocalManualCache.invalidate(LocalCache.java:4891)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:35.190
+!MESSAGE 	at org.springframework.ide.vscode.boot.java.utils.CompilationUnitCache.invalidateCuForJavaFile(CompilationUnitCache.java:383)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:35.191
+!MESSAGE 	at org.springframework.ide.vscode.boot.java.utils.CompilationUnitCache.lambda$new$0(CompilationUnitCache.java:130)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:35.192
+!MESSAGE 	at org.springframework.ide.vscode.commons.languageserver.util.ListenerList.fire(ListenerList.java:29)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:35.193
+!MESSAGE 	at org.springframework.ide.vscode.commons.languageserver.util.SimpleTextDocumentService.didChange(SimpleTextDocumentService.java:210)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:35.193
+!MESSAGE 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:35.194
+!MESSAGE 	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:35.194
+!MESSAGE 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:35.195
+!MESSAGE 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:35.195
+!MESSAGE 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:35.196
+!MESSAGE 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:35.196
+!MESSAGE 	at org.springframework.ide.vscode.commons.languageserver.util.ParentProcessWatcher.lambda$apply$0(ParentProcessWatcher.java:129)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:35.197
+!MESSAGE 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:35.197
+!MESSAGE 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:35.198
+!MESSAGE 	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:35.199
+!MESSAGE 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:35.199
+!MESSAGE 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:35.200
+!MESSAGE 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:35.201
+!MESSAGE 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:35.202
+!MESSAGE 	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:35.202
+!MESSAGE Caused by: java.util.concurrent.CancellationException: null
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:35.203
+!MESSAGE 	at java.base/java.util.concurrent.CompletableFuture.cancel(CompletableFuture.java:2552)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:35.204
+!MESSAGE 	... 26 common frames omitted
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:35.327
+!MESSAGE 09:41:35.326 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:35.831
+!MESSAGE 09:41:35.830 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:35.835
+!MESSAGE 09:41:35.832 [pool-14-thread-1] ERROR o.s.i.v.b.j.u.CompilationUnitCache - 
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:35.837
+!MESSAGE java.util.concurrent.CompletionException: java.util.concurrent.CancellationException
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:35.843
+!MESSAGE 	at java.base/java.util.concurrent.CompletableFuture.wrapInCompletionException(CompletableFuture.java:323)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:35.845
+!MESSAGE 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:376)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:35.847
+!MESSAGE 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:391)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:35.848
+!MESSAGE 	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:729)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:35.849
+!MESSAGE 	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:531)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:35.850
+!MESSAGE 	at java.base/java.util.concurrent.CompletableFuture.cancel(CompletableFuture.java:2554)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:35.851
+!MESSAGE 	at org.springframework.ide.vscode.boot.java.utils.CompilationUnitCache$1.onRemoval(CompilationUnitCache.java:106)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:35.852
+!MESSAGE 	at com.google.common.cache.LocalCache.processPendingNotifications(LocalCache.java:1814)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:35.853
+!MESSAGE 	at com.google.common.cache.LocalCache$Segment.runUnlockedCleanup(LocalCache.java:3467)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:35.853
+!MESSAGE 	at com.google.common.cache.LocalCache$Segment.postWriteCleanup(LocalCache.java:3443)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:35.855
+!MESSAGE 	at com.google.common.cache.LocalCache$Segment.remove(LocalCache.java:3077)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:35.856
+!MESSAGE 	at com.google.common.cache.LocalCache.remove(LocalCache.java:4251)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:35.858
+!MESSAGE 	at com.google.common.cache.LocalCache$LocalManualCache.invalidate(LocalCache.java:4891)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:35.859
+!MESSAGE 	at org.springframework.ide.vscode.boot.java.utils.CompilationUnitCache.invalidateCuForJavaFile(CompilationUnitCache.java:383)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:35.859
+!MESSAGE 	at org.springframework.ide.vscode.boot.java.utils.CompilationUnitCache.lambda$new$0(CompilationUnitCache.java:130)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:35.860
+!MESSAGE 	at org.springframework.ide.vscode.commons.languageserver.util.ListenerList.fire(ListenerList.java:29)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:35.861
+!MESSAGE 	at org.springframework.ide.vscode.commons.languageserver.util.SimpleTextDocumentService.didChange(SimpleTextDocumentService.java:210)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:35.861
+!MESSAGE 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:35.862
+!MESSAGE 	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:35.863
+!MESSAGE 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:35.863
+!MESSAGE 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:35.864
+!MESSAGE 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:35.865
+!MESSAGE 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:35.865
+!MESSAGE 	at org.springframework.ide.vscode.commons.languageserver.util.ParentProcessWatcher.lambda$apply$0(ParentProcessWatcher.java:129)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:35.866
+!MESSAGE 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:35.867
+!MESSAGE 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:35.867
+!MESSAGE 	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:35.868
+!MESSAGE 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:35.868
+!MESSAGE 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:35.869
+!MESSAGE 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:35.870
+!MESSAGE 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:35.870
+!MESSAGE 	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:35.871
+!MESSAGE Caused by: java.util.concurrent.CancellationException: null
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:35.873
+!MESSAGE 	at java.base/java.util.concurrent.CompletableFuture.cancel(CompletableFuture.java:2552)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:35.874
+!MESSAGE 	... 26 common frames omitted
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:35.950
+!MESSAGE 09:41:35.950 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:36.134
+!MESSAGE 09:41:36.134 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 292
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:36.637
+!MESSAGE 09:41:36.636 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:36.644
+!MESSAGE 09:41:36.643 [pool-5-thread-6] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:38.046
+!MESSAGE 09:41:38.046 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:38.255
+!MESSAGE 09:41:38.254 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 294
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:38.464
+!MESSAGE 09:41:38.463 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:38.714
+!MESSAGE 09:41:38.713 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 296
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:38.911
+!MESSAGE 09:41:38.910 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:39.412
+!MESSAGE 09:41:39.412 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:39.418
+!MESSAGE 09:41:39.418 [pool-5-thread-6] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:40.567
+!MESSAGE 09:41:40.566 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:40.671
+!MESSAGE 09:41:40.670 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 299
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:41.173
+!MESSAGE 09:41:41.172 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 300
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:41.180
+!MESSAGE 09:41:41.179 [pool-5-thread-6] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:41.675
+!MESSAGE 09:41:41.674 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:43.004
+!MESSAGE 09:41:43.001 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:43.254
+!MESSAGE 09:41:43.253 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 302
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:43.376
+!MESSAGE 09:41:43.375 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:44.046
+!MESSAGE 09:41:44.046 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:44.143
+!MESSAGE 09:41:44.142 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 305
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:44.645
+!MESSAGE 09:41:44.644 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:44.653
+!MESSAGE 09:41:44.653 [pool-5-thread-6] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:45.359
+!MESSAGE 09:41:45.358 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:45.752
+!MESSAGE 09:41:45.751 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 307
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:46.078
+!MESSAGE 09:41:46.077 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 308
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:46.270
+!MESSAGE 09:41:46.270 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:46.897
+!MESSAGE 09:41:46.774 [pool-5-thread-6] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:46.900
+!MESSAGE 09:41:46.789 [Reconciler-1] INFO  o.s.i.v.b.j.r.JdtReconciler - reconciling (JDT): file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java done in 15ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:47.070
+!MESSAGE 09:41:47.069 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 311
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:47.572
+!MESSAGE 09:41:47.571 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:47.576
+!MESSAGE 09:41:47.576 [pool-5-thread-6] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:47.782
+!MESSAGE 09:41:47.782 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:48.006
+!MESSAGE 09:41:48.005 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 313
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:48.510
+!MESSAGE 09:41:48.509 [pool-3-thread-22] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:48.522
+!MESSAGE 09:41:48.521 [pool-5-thread-6] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:49.696
+!MESSAGE 09:41:49.695 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:50.095
+!MESSAGE 09:41:50.095 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 315
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:50.264
+!MESSAGE 09:41:50.263 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 316
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:50.711
+!MESSAGE 09:41:50.710 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:51.001
+!MESSAGE 09:41:51.000 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 319
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:51.087
+!MESSAGE 09:41:51.086 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:51.239
+!MESSAGE 09:41:51.238 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:51.374
+!MESSAGE 09:41:51.266 [pool-3-thread-23] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:51.523
+!MESSAGE 09:41:51.520 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:51.774
+!MESSAGE 09:41:51.773 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 324
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:51.974
+!MESSAGE 09:41:51.973 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:52.238
+!MESSAGE 09:41:52.238 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:52.239
+!MESSAGE 09:41:52.239 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 2ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:52.343
+!MESSAGE 09:41:52.265 [pool-3-thread-23] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:52.344
+!MESSAGE 09:41:52.343 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:52.846
+!MESSAGE 09:41:52.845 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:52.852
+!MESSAGE 09:41:52.851 [pool-5-thread-6] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:54.463
+!MESSAGE 09:41:54.462 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:54.967
+!MESSAGE 09:41:54.965 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:54.982
+!MESSAGE 09:41:54.980 [pool-5-thread-6] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:55.186
+!MESSAGE 09:41:55.184 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:55.409
+!MESSAGE 09:41:55.409 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:55.911
+!MESSAGE 09:41:55.911 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:55.916
+!MESSAGE 09:41:55.915 [Reconciler-1] INFO  o.s.i.v.b.j.r.JdtReconciler - reconciling (JDT): file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java done in 4ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:57.105
+!MESSAGE 09:41:57.103 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:57.606
+!MESSAGE 09:41:57.605 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:41:57.610
+!MESSAGE 09:41:57.610 [pool-5-thread-6] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:42:46.683
+!MESSAGE 09:42:46.678 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:42:46.775
+!MESSAGE 09:42:46.774 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 333
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:42:46.926
+!MESSAGE 09:42:46.926 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:42:47.126
+!MESSAGE 09:42:47.126 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:42:47.294
+!MESSAGE 09:42:47.294 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 336
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:42:47.486
+!MESSAGE 09:42:47.486 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:42:47.720
+!MESSAGE 09:42:47.718 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:42:47.968
+!MESSAGE 09:42:47.967 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 339
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:42:48.474
+!MESSAGE 09:42:48.473 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:42:48.536
+!MESSAGE 09:42:48.535 [pool-5-thread-6] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:42:49.642
+!MESSAGE 09:42:49.640 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:42:50.147
+!MESSAGE 09:42:50.145 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:42:50.169
+!MESSAGE 09:42:50.167 [pool-5-thread-6] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:42:51.399
+!MESSAGE 09:42:51.398 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:42:51.903
+!MESSAGE 09:42:51.902 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:42:51.920
+!MESSAGE 09:42:51.919 [pool-5-thread-6] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:43:12.247
+!MESSAGE 09:43:12.246 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 342
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:43:12.486
+!MESSAGE 09:43:12.485 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 343
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:43:12.662
+!MESSAGE 09:43:12.657 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:43:12.782
+!MESSAGE 09:43:12.782 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:43:13.271
+!MESSAGE 09:43:13.270 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 346
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:43:13.382
+!MESSAGE 09:43:13.382 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 347
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:43:13.885
+!MESSAGE 09:43:13.884 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:43:13.890
+!MESSAGE 09:43:13.889 [pool-5-thread-6] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:43:17.083
+!MESSAGE 09:43:17.074 [pool-3-thread-22] INFO  o.s.i.v.boot.app.SpringSymbolIndex - Update document [didSave event]: file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:43:17.087
+!MESSAGE 09:43:17.087 [Simple-Language-Server main thread] INFO  o.s.i.v.c.l.u.SimpleWorkspaceService - file changed event: [file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:43:17.784
+!MESSAGE 09:43:17.275 [Simple-Language-Server main thread] INFO  o.s.i.v.c.l.u.SimpleWorkspaceService - file changed event: [file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/bin/entities/Account.class]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:43:21.262
+!MESSAGE 09:43:21.262 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:43:21.474
+!MESSAGE 09:43:21.473 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 349
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:43:21.630
+!MESSAGE 09:43:21.629 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:43:22.133
+!MESSAGE 09:43:22.132 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:43:22.138
+!MESSAGE 09:43:22.138 [pool-5-thread-6] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:43:22.265
+!MESSAGE 09:43:22.263 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:43:22.765
+!MESSAGE 09:43:22.765 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:43:22.780
+!MESSAGE 09:43:22.779 [pool-5-thread-6] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:43:35.699
+!MESSAGE 09:43:35.696 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:43:36.380
+!MESSAGE 09:43:36.379 [pool-5-thread-6] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Parsed successfully CU for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:43:36.381
+!MESSAGE 09:43:36.380 [Reconciler-1] INFO  o.s.i.v.b.j.r.JdtReconciler - reconciling (JDT): file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java done in 8ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:43:39.246
+!MESSAGE 09:43:39.246 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 354
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:43:39.446
+!MESSAGE 09:43:39.446 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:43:39.623
+!MESSAGE 09:43:39.623 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:43:39.785
+!MESSAGE 09:43:39.783 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 357
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:43:39.968
+!MESSAGE 09:43:39.966 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:43:40.475
+!MESSAGE 09:43:40.474 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:43:40.499
+!MESSAGE 09:43:40.498 [pool-5-thread-6] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:43:41.088
+!MESSAGE 09:43:41.087 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:43:41.592
+!MESSAGE 09:43:41.591 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:43:41.600
+!MESSAGE 09:43:41.599 [pool-5-thread-6] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:43:47.255
+!MESSAGE 09:43:47.254 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 360
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:43:47.359
+!MESSAGE 09:43:47.358 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 361
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:43:47.639
+!MESSAGE 09:43:47.638 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:43:47.775
+!MESSAGE 09:43:47.774 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:43:47.894
+!MESSAGE 09:43:47.893 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 364
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:43:48.038
+!MESSAGE 09:43:48.038 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:43:48.486
+!MESSAGE 09:43:48.485 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 366
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:43:48.654
+!MESSAGE 09:43:48.654 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:43:48.782
+!MESSAGE 09:43:48.782 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:43:49.284
+!MESSAGE 09:43:49.283 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:43:49.290
+!MESSAGE 09:43:49.289 [pool-5-thread-6] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:43:50.938
+!MESSAGE 09:43:50.936 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:43:53.725
+!MESSAGE 09:43:51.439 [pool-5-thread-6] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:43:53.729
+!MESSAGE 09:43:51.443 [Reconciler-1] INFO  o.s.i.v.b.j.r.JdtReconciler - reconciling (JDT): file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java done in 4ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:43:53.763
+!MESSAGE 09:43:53.761 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:43:53.934
+!MESSAGE 09:43:53.933 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 371
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:43:54.095
+!MESSAGE 09:43:54.094 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:43:54.597
+!MESSAGE 09:43:54.596 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:43:54.601
+!MESSAGE 09:43:54.600 [pool-5-thread-6] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:43:54.791
+!MESSAGE 09:43:54.790 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:43:55.312
+!MESSAGE 09:43:55.296 [pool-5-thread-6] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:44:00.792
+!MESSAGE 09:44:00.791 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:44:01.294
+!MESSAGE 09:44:01.293 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:44:01.298
+!MESSAGE 09:44:01.298 [pool-5-thread-6] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:44:01.375
+!MESSAGE 09:44:01.374 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:44:01.478
+!MESSAGE 09:44:01.478 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 376
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:44:01.743
+!MESSAGE 09:44:01.742 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:44:01.878
+!MESSAGE 09:44:01.878 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:44:01.990
+!MESSAGE 09:44:01.990 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 379
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:44:02.167
+!MESSAGE 09:44:02.166 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:44:02.415
+!MESSAGE 09:44:02.414 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:44:02.916
+!MESSAGE 09:44:02.915 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:44:02.921
+!MESSAGE 09:44:02.921 [pool-5-thread-6] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:44:03.815
+!MESSAGE 09:44:03.814 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:44:04.022
+!MESSAGE 09:44:04.022 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 383
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:44:04.454
+!MESSAGE 09:44:04.454 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 384
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:44:04.566
+!MESSAGE 09:44:04.566 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:44:05.054
+!MESSAGE 09:44:05.054 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 386
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:44:05.556
+!MESSAGE 09:44:05.556 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:44:05.562
+!MESSAGE 09:44:05.562 [pool-5-thread-6] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:44:06.459
+!MESSAGE 09:44:06.453 [pool-3-thread-23] INFO  o.s.i.v.boot.app.SpringSymbolIndex - Update document [didSave event]: file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:44:06.731
+!MESSAGE 09:44:06.482 [Simple-Language-Server main thread] INFO  o.s.i.v.boot.app.SpringSymbolIndex - Update document [file changed]: file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:48:06.160
+!MESSAGE 09:44:07.239 [pool-3-thread-23] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:48:06.960
+!MESSAGE 09:48:06.960 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 387
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-02-10 09:48:07.450
+!MESSAGE Timed out after waiting for 300ms for semantic tokens from Language Servers
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1981)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2116)
+	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:68)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.getContributedSemanticTokens(SemanticHighlightingReconciler.java:423)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.reconciled(SemanticHighlightingReconciler.java:470)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.reconciled(CompilationUnitEditor.java:1674)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconciled(JavaReconcilingStrategy.java:228)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconciled(JavaCompositeReconcilingStrategy.java:171)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:115)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundWorker.run(AbstractReconciler.java:201)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:48:07.922
+!MESSAGE 09:48:07.921 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:48:07.965
+!MESSAGE 09:48:07.965 [pool-5-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:48:09.311
+!MESSAGE 09:48:09.311 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:48:09.814
+!MESSAGE 09:48:09.813 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:48:09.818
+!MESSAGE 09:48:09.818 [pool-5-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:48:10.751
+!MESSAGE 09:48:10.750 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:48:10.984
+!MESSAGE 09:48:10.983 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:48:11.488
+!MESSAGE 09:48:11.486 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:48:11.503
+!MESSAGE 09:48:11.501 [pool-5-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:48:13.090
+!MESSAGE 09:48:13.088 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:48:13.295
+!MESSAGE 09:48:13.294 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:48:13.489
+!MESSAGE 09:48:13.488 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 393
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:48:13.674
+!MESSAGE 09:48:13.672 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:48:13.895
+!MESSAGE 09:48:13.894 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:48:14.193
+!MESSAGE 09:48:14.192 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 396
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:48:14.698
+!MESSAGE 09:48:14.697 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:48:14.711
+!MESSAGE 09:48:14.710 [pool-5-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:48:16.461
+!MESSAGE 09:48:16.460 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:48:16.474
+!MESSAGE 09:48:16.472 [pool-5-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:48:17.594
+!MESSAGE 09:48:17.534 [Simple-Language-Server main thread] INFO  o.s.i.v.boot.app.SpringSymbolIndex - Update document [file changed]: file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/entities/Account.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:48:48.839
+!MESSAGE 09:48:17.691 [Simple-Language-Server main thread] INFO  o.s.i.v.c.l.u.SimpleWorkspaceService - file changed event: [file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/bin/entities/Account.class]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:48:50.255
+!MESSAGE 09:48:50.254 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:48:50.425
+!MESSAGE 09:48:50.424 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 739
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:48:50.637
+!MESSAGE 09:48:50.635 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:48:50.774
+!MESSAGE 09:48:50.773 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:48:50.926
+!MESSAGE 09:48:50.926 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 742
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:48:51.428
+!MESSAGE 09:48:51.427 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:48:51.436
+!MESSAGE 09:48:51.436 [pool-5-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:48:51.609
+!MESSAGE 09:48:51.607 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:48:52.111
+!MESSAGE 09:48:52.110 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:48:52.121
+!MESSAGE 09:48:52.120 [pool-5-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:19.232
+!MESSAGE 09:49:19.232 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:19.734
+!MESSAGE 09:49:19.734 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:19.748
+!MESSAGE 09:49:19.747 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:19.993
+!MESSAGE 09:49:19.992 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:20.118
+!MESSAGE 09:49:20.117 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 746
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:20.409
+!MESSAGE 09:49:20.407 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:20.910
+!MESSAGE 09:49:20.910 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:20.917
+!MESSAGE 09:49:20.916 [pool-5-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:21.209
+!MESSAGE 09:49:21.207 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:21.535
+!MESSAGE 09:49:21.534 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 749
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:21.929
+!MESSAGE 09:49:21.927 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:22.306
+!MESSAGE 09:49:22.055 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:22.366
+!MESSAGE 09:49:22.366 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - completion request arrived: file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:22.811
+!MESSAGE 09:49:22.367 [pool-3-thread-25] INFO  o.s.i.v.c.l.c.VscodeCompletionEngineAdapter - Got 0 completions in 1ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:22.835
+!MESSAGE 09:49:22.815 [pool-5-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:22.836
+!MESSAGE 09:49:22.835 [Reconciler-1] INFO  o.s.i.v.b.j.r.JdtReconciler - reconciling (JDT): file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java done in 20ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:22.910
+!MESSAGE 09:49:22.910 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:23.014
+!MESSAGE 09:49:23.014 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:23.287
+!MESSAGE 09:49:23.286 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:23.598
+!MESSAGE 09:49:23.598 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 756
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:24.101
+!MESSAGE 09:49:24.101 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:24.108
+!MESSAGE 09:49:24.107 [pool-5-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:25.790
+!MESSAGE 09:49:25.789 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:26.297
+!MESSAGE 09:49:26.291 [pool-5-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:38.208
+!MESSAGE 09:49:38.208 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 758
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:38.715
+!MESSAGE 09:49:38.713 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:38.734
+!MESSAGE 09:49:38.733 [pool-5-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:38.841
+!MESSAGE 09:49:38.840 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:39.079
+!MESSAGE 09:49:39.078 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 760
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:39.247
+!MESSAGE 09:49:39.246 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:39.415
+!MESSAGE 09:49:39.414 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 762
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:39.855
+!MESSAGE 09:49:39.855 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:40.022
+!MESSAGE 09:49:40.022 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 764
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:40.393
+!MESSAGE 09:49:40.391 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:40.896
+!MESSAGE 09:49:40.416 [pool-3-thread-24] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:40.917
+!MESSAGE 09:49:40.916 [pool-5-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:41.311
+!MESSAGE 09:49:41.310 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:41.791
+!MESSAGE 09:49:41.790 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 767
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:41.936
+!MESSAGE 09:49:41.935 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:41.941
+!MESSAGE 09:49:41.938 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 3ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:41.995
+!MESSAGE 09:49:41.979 [pool-3-thread-24] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:42.244
+!MESSAGE 09:49:42.241 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:42.408
+!MESSAGE 09:49:42.406 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:42.911
+!MESSAGE 09:49:42.910 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:42.920
+!MESSAGE 09:49:42.919 [pool-5-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:43.063
+!MESSAGE 09:49:43.062 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:43.431
+!MESSAGE 09:49:43.430 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:43.678
+!MESSAGE 09:49:43.677 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 773
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:44.181
+!MESSAGE 09:49:44.181 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:44.191
+!MESSAGE 09:49:44.190 [pool-5-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:44.775
+!MESSAGE 09:49:44.774 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:45.281
+!MESSAGE 09:49:45.279 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:45.284
+!MESSAGE p(LocalCache.java:3467)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:45.287
+!MESSAGE 	at com.google.common.cache.LocalCache$Segment.postWriteCleanup(LocalCache.java:3443)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:45.290
+!MESSAGE 	at com.google.common.cache.LocalCache$Segment.remove(LocalCache.java:3077)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:45.292
+!MESSAGE 	at com.google.common.cache.LocalCache.remove(LocalCache.java:4251)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:45.294
+!MESSAGE 	at com.google.common.cache.LocalCache$LocalManualCache.invalidate(LocalCache.java:4891)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:45.296
+!MESSAGE 	at org.springframework.ide.vscode.boot.java.utils.CompilationUnitCache.invalidateCuForJavaFile(CompilationUnitCache.java:383)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:45.298
+!MESSAGE 	at org.springframework.ide.vscode.boot.java.utils.CompilationUnitCache.lambda$new$0(CompilationUnitCache.java:130)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:45.299
+!MESSAGE 	at org.springframework.ide.vscode.commons.languageserver.util.ListenerList.fire(ListenerList.java:29)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:45.300
+!MESSAGE 	at org.springframework.ide.vscode.commons.languageserver.util.SimpleTextDocumentService.didChange(SimpleTextDocumentService.java:210)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:45.301
+!MESSAGE 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:45.302
+!MESSAGE 	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:45.304
+!MESSAGE 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:45.305
+!MESSAGE 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:45.307
+!MESSAGE 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:45.307
+!MESSAGE 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:45.308
+!MESSAGE 	at org.springframework.ide.vscode.commons.languageserver.util.ParentProcessWatcher.lambda$apply$0(ParentProcessWatcher.java:129)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:45.310
+!MESSAGE 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:45.311
+!MESSAGE 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:45.313
+!MESSAGE 	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:45.314
+!MESSAGE 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:45.315
+!MESSAGE 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:45.316
+!MESSAGE 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:45.317
+!MESSAGE 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:45.318
+!MESSAGE 	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:45.319
+!MESSAGE Caused by: java.util.concurrent.CancellationException: null
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:45.323
+!MESSAGE 	at java.base/java.util.concurrent.CompletableFuture.cancel(CompletableFuture.java:2552)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:45.324
+!MESSAGE 	... 26 common frames omitted
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:45.661
+!MESSAGE 09:49:45.661 [pool-3-thread-25] INFO  o.s.i.v.c.l.c.VscodeCompletionEngineAdapter - completion handling - retrieve lastest snapshot for: file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:45.916
+!MESSAGE 09:49:45.662 [pool-3-thread-25] INFO  o.s.i.v.c.l.c.VscodeCompletionEngineAdapter - Got 0 completions in 1ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:46.807
+!MESSAGE 09:49:46.141 [pool-5-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:46.809
+!MESSAGE 09:49:46.151 [Reconciler-1] INFO  o.s.i.v.b.j.r.JdtReconciler - reconciling (JDT): file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java done in 10ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:46.919
+!MESSAGE 09:49:46.918 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 779
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:47.421
+!MESSAGE 09:49:47.421 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:47.427
+!MESSAGE 09:49:47.427 [pool-5-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:47.458
+!MESSAGE 09:49:47.457 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:47.995
+!MESSAGE 09:49:47.960 [pool-5-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:47.999
+!MESSAGE 09:49:47.997 [pool-5-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:50.719
+!MESSAGE 09:49:50.718 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:51.220
+!MESSAGE 09:49:51.220 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:51.226
+!MESSAGE 09:49:51.225 [pool-5-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:53.790
+!MESSAGE 09:49:53.790 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 782
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:53.934
+!MESSAGE 09:49:53.934 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 783
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:54.314
+!MESSAGE 09:49:54.312 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:54.448
+!MESSAGE 09:49:54.446 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:54.551
+!MESSAGE 09:49:54.550 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:55.054
+!MESSAGE 09:49:55.053 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:55.064
+!MESSAGE 09:49:55.064 [pool-5-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:57.233
+!MESSAGE 09:49:57.231 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:57.736
+!MESSAGE 09:49:57.735 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:49:57.752
+!MESSAGE 09:49:57.751 [pool-5-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:01.366
+!MESSAGE 09:50:01.366 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 788
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:01.742
+!MESSAGE 09:50:01.590 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 789
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:01.896
+!MESSAGE 09:50:01.895 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:02.030
+!MESSAGE 09:50:02.030 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 792
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:02.417
+!MESSAGE 09:50:02.416 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 793
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:02.919
+!MESSAGE 09:50:02.919 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:02.931
+!MESSAGE 09:50:02.931 [pool-5-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:02.991
+!MESSAGE 09:50:02.990 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:03.494
+!MESSAGE 09:50:03.493 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:03.504
+!MESSAGE 09:50:03.504 [pool-5-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:04.014
+!MESSAGE 09:50:04.014 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:04.246
+!MESSAGE 09:50:04.246 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 796
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:04.750
+!MESSAGE 09:50:04.750 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:04.761
+!MESSAGE 09:50:04.760 [pool-5-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:05.583
+!MESSAGE 09:50:05.582 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:05.990
+!MESSAGE 09:50:05.990 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 798
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:06.494
+!MESSAGE 09:50:06.494 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:06.511
+!MESSAGE 09:50:06.511 [pool-5-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:06.559
+!MESSAGE 09:50:06.558 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:07.199
+!MESSAGE 09:50:06.703 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 800
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:07.221
+!MESSAGE 09:50:07.205 [pool-5-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:14.912
+!MESSAGE 09:50:13.054 [pool-5-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:14.913
+!MESSAGE 09:50:13.072 [Reconciler-1] INFO  o.s.i.v.b.j.r.JdtReconciler - reconciling (JDT): file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java done in 18ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:15.360
+!MESSAGE 09:50:15.360 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 803
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:15.867
+!MESSAGE 09:50:15.866 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:15.884
+!MESSAGE 09:50:15.883 [pool-5-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:18.353
+!MESSAGE 09:50:18.351 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:18.476
+!MESSAGE 09:50:18.474 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:18.567
+!MESSAGE 09:50:18.566 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 806
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:18.938
+!MESSAGE 09:50:18.936 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:19.102
+!MESSAGE 09:50:19.102 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:19.250
+!MESSAGE 09:50:19.248 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:19.754
+!MESSAGE 09:50:19.752 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:19.778
+!MESSAGE 09:50:19.777 [pool-5-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:19.911
+!MESSAGE 09:50:19.911 [pool-3-thread-25] INFO  o.s.i.v.c.l.c.VscodeCompletionEngineAdapter - completion handling - retrieve lastest snapshot for: file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:20.319
+!MESSAGE 09:50:19.913 [pool-3-thread-25] INFO  o.s.i.v.c.l.c.VscodeCompletionEngineAdapter - Got 0 completions in 2ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:20.854
+!MESSAGE 09:50:20.826 [pool-5-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:20.855
+!MESSAGE 09:50:20.853 [Reconciler-1] INFO  o.s.i.v.b.j.r.JdtReconciler - reconciling (JDT): file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java done in 28ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:22.161
+!MESSAGE 09:50:22.159 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 811
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:22.841
+!MESSAGE 09:50:22.664 [pool-5-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:22.842
+!MESSAGE 09:50:22.685 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:22.844
+!MESSAGE 09:50:22.702 [pool-3-thread-24] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:23.157
+!MESSAGE 09:50:23.155 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:23.315
+!MESSAGE 09:50:23.313 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:23.842
+!MESSAGE 09:50:23.819 [pool-5-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:23.847
+!MESSAGE 09:50:23.845 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:23.971
+!MESSAGE 09:50:23.970 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 815
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:24.116
+!MESSAGE 09:50:24.114 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:24.260
+!MESSAGE 09:50:24.258 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:24.779
+!MESSAGE 09:50:24.763 [pool-5-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:24.786
+!MESSAGE 09:50:24.785 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 819
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:24.796
+!MESSAGE 09:50:24.796 [pool-3-thread-24] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:25.308
+!MESSAGE 09:50:25.291 [pool-5-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:25.886
+!MESSAGE 09:50:25.885 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 820
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:26.199
+!MESSAGE 09:50:26.087 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:26.719
+!MESSAGE 09:50:26.701 [pool-5-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:26.725
+!MESSAGE 09:50:26.724 [Reconciler-1] INFO  o.s.i.v.b.j.r.JdtReconciler - reconciling (JDT): file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java done in 23ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:27.370
+!MESSAGE 09:50:27.368 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 823
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:27.528
+!MESSAGE 09:50:27.373 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 5ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:28.060
+!MESSAGE 09:50:28.031 [pool-5-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:34.248
+!MESSAGE 09:50:30.665 [pool-3-thread-24] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - hover computation done in 3ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:34.495
+!MESSAGE 09:50:34.494 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 826
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:34.607
+!MESSAGE 09:50:34.606 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:35.359
+!MESSAGE 09:50:34.857 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 828
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:35.376
+!MESSAGE 09:50:35.375 [pool-5-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:37.113
+!MESSAGE 09:50:37.112 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 829
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:37.116
+!MESSAGE 09:50:37.113 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 1ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:37.118
+!MESSAGE 09:50:37.113 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 830
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:37.119
+!MESSAGE 09:50:37.114 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:37.618
+!MESSAGE 09:50:37.617 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:37.640
+!MESSAGE 09:50:37.638 [pool-5-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:38.389
+!MESSAGE 09:50:38.387 [pool-3-thread-24] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:38.391
+!MESSAGE 09:50:38.390 [pool-3-thread-25] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:38.559
+!MESSAGE 09:50:38.552 [pool-3-thread-25] INFO  o.s.i.v.boot.app.SpringSymbolIndex - Update document [didSave event]: file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-10 09:50:38.562
+!MESSAGE 09:50:38.561 [Simple-Language-Server main thread] INFO  o.s.i.v.c.l.u.SimpleWorkspaceService - file changed event: [file:///C:/exercicios-curso-java-completo-udemy/secao11_exercicios_tratamento_de_excecoes_exercicio_de_fixacao/src/application/Program.java]
